@@ -1,0 +1,23 @@
+<main>
+    <section class="content">
+        <p>Je suis la home</p>
+    </section>
+    <div class="home">
+        <app-cuisine></app-cuisine>
+        <app-salon></app-salon>
+    </div>
+    <section>
+        <form>
+          <input type="text" placeholder="Filtre par pièce" #filter>
+          <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
+        </form>
+      </section>
+    <section class="results">
+        <app-piece
+            *ngFor="let piece of filteredPieceList"
+            [piece]="piece"
+
+            [monMessage]="monMessage"
+        ></app-piece>
+      </section>
+  </main>

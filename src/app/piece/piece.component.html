@@ -1,0 +1,13 @@
+<section class="listing">
+    <p>yeah la pièce</p>
+    <p>{{monMessage}}</p>
+    <img
+      class="listing-photo"
+      [src]="piece.photo"
+      alt="Exterior photo of {{ piece.name }}"
+      crossorigin
+    />
+    <h2 class="listing-heading">{{ piece.name }}</h2>
+    <p class="listing-location">{{ piece.functionServe }}, {{ piece.state }}</p>
+    <a [routerLink]="['/details', piece.id]">Learn More</a>
+  </section>
