@@ -1,0 +1,44 @@
+{
+    "pieces": [
+        {
+        "id": 1,
+        "name": "hall",
+        "state": "Ouvert",
+        "photo": "https://angular.dev/assets/images/tutorials/common/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
+        "wifi": true,
+        "functionServe": "tester si ça fonctionne"
+        },
+        {
+        "id": 2,
+        "name": "salle de bain",
+        "state": "Ouvert",
+        "photo": "https://angular.dev/assets/images/tutorials/common/brandon-griggs-wR11KBaB86U-unsplash.jpg",
+        "wifi": true,
+        "functionServe": "tester si ça fonctionne"
+        },
+        {
+      "id": 3,
+      "name": "placard",
+      "state": "Ouvert",
+      "photo": "https://angular.dev/assets/images/tutorials/common/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg",
+      "wifi": true,
+      "functionServe": "tester si ça fonctionne"
+        },
+        {
+      "id": 4,
+      "name": "Cellier",
+      "state": "Ouvert",
+      "photo": "https://angular.dev/assets/images/tutorials/common/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
+      "wifi": true,
+      "functionServe": "tester si ça fonctionne"
+        },
+        {
+      "id": 5,
+      "name": "Cave",
+      "state": "Ouvert",
+      "photo": "https://angular.dev/assets/images/tutorials/common/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
+      "wifi": true,
+      "functionServe": "tester si ça fonctionne"
+        }
+    ]
+}
